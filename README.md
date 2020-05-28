@@ -1,3 +1,3 @@
 # Hello Spinnaker!
 
-This container image can be deployed on a Kubernetes cluster using Spinnaker
+Demo container image for deploying on to Kubernetes cluster using Spinnaker
