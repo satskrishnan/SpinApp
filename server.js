@@ -10,10 +10,10 @@ app.use(express.static('static'));
 app.use(morgan('combined'));
 
 // Configuration
-var port = process.env.PORT || 8080;
+var port = process.env.PORT || 7878;
 var message = process.env.MESSAGE || "Hello Spinnaker!";
 
-app.get('/', function (req, res) {
+app.get('/spinapp', function (req, res) {
     res.render('home', {
       message: message,
       platform: os.type(),
